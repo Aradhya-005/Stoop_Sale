@@ -1,0 +1,54 @@
+.event-details {
+    background-color: #fff;
+    padding: 20px;
+    border-top-left-radius: 8px; /* Adjust the value as needed */
+  border-top-right-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 120pc;
+    text-align: left;
+  }
+  
+  .event-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .event-date,
+  .event-time,
+  .event-location,
+  .event-description {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #555;
+  }
+  
+
+  
+ 
+  .rsvp-form {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+   
+    margin-top: 20px; /* Space above the form */
+  }
+  
+  .rsvp-input {
+    padding: 10px; /* Input padding */
+    margin-bottom: 10px; /* Space below the input */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 5px; /* Rounded corners for input */
+    width: 100%; /* Full width */
+    max-width: 300px; /* Max width */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+  }
+  .share-rsvp {
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center items vertically */
+    gap: 30px; /* Optional: Space between the button and share button */
+  }
+ 
+
+ 
+  

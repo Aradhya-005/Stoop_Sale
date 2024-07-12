@@ -1,0 +1,54 @@
+/* UpcomingSales.css */
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    margin: 5px 0;
+    padding: 10px;
+  }
+  
+  
+  
+  
+  h4 {
+    margin-top: 20px;
+  }
+  /* UpcomingSales.css */
+  .button-padding {
+    padding: 40px 20px !important; /* Adjust the values as needed */
+  }
+.upcoming-sales {
+    background-color: #f9f9f9; /* Light background */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Inner spacing */
+    box-shadow: 0 4px 10px rgba(255, 241, 241, 0.1); /* Subtle shadow */
+    margin-top: 20px; /* Space above */
+}
+
+.upcoming-sales h2 {
+    font-size: 24px; /* Heading size */
+    color: #333; /* Dark text color */
+    margin-bottom: 10px; /* Space below heading */
+}
+
+.upcoming-sales ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+}
+
+.upcoming-sales li {
+    padding: 10px; /* Inner spacing for each item */
+    border-bottom: 1px solid #ccc; /* Divider line */
+    margin-bottom: 10px; /* Space between items */
+}
+
+.upcoming-sales li:last-child {
+    border-bottom: none; /* Remove border from last item */
+}
+
+.upcoming-sales p {
+    color: #777; /* Light text color for empty state */
+}

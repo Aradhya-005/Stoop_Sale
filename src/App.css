@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Saira+Stencil+One');
+
+body, html {
+  padding: 0;
+  margin: 0 ;
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Saira Stencil One', cursive !important;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+

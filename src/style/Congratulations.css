@@ -1,0 +1,24 @@
+.congratulations-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    text-align: center;
+    z-index: 4;
+  }
+  
+  .congratulations-container h2 {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #007bff;
+    z-index: 4;
+  }
+  
+  .congratulations-container p {
+    margin-top: 10px;
+    font-size: 18px;
+    z-index: 4;
+    
+  }
+  
